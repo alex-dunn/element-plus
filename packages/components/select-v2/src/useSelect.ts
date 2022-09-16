@@ -140,9 +140,11 @@ const useSelect = (props: ExtractPropTypes<typeof SelectProps>, emit) => {
   const filteredOptions = computed(() => {
     const isValidOption = (o: Option): boolean => {
       // fill the conditions here.
-      const query = states.inputValue
+      const query = states.inputValue.toLowerCase()
       // when query was given, we should test on the label see whether the label contains the given query
-      const containsQueryString = query ? o.label?.includes(query) : true
+      const containsQueryString = query
+        ? o.label?.toLowerCase()?.includes(query)
+        : true
       return containsQueryString
     }
     if (props.loading) {
