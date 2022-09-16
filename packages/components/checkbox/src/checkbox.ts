@@ -8,20 +8,20 @@ import {
   watch,
 } from 'vue'
 import { toTypeString } from '@vue/shared'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
+import { UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
 import {
   useFormItem,
   useFormItemInputId,
   useSize,
   useSizeProp,
-} from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/hooks'
 import {
   debugWarn,
   isArray,
   isBoolean,
   isNumber,
   isString,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 
 import type { ComponentInternalInstance, ExtractPropTypes, PropType } from 'vue'
 import type { ICheckboxGroupInstance } from './checkbox.type'

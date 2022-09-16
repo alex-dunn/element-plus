@@ -10,10 +10,10 @@
 </template>
 <script lang="ts" setup>
 import { inject, ref } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 
-import { uploadContextKey } from '@element-plus/tokens'
-import { throwError } from '@element-plus/utils/error'
+import { uploadContextKey } from '@alex.dunn.adalyser/tokens'
+import { throwError } from '@alex.dunn.adalyser/utils/error'
 import { uploadDraggerEmits, uploadDraggerProps } from './upload-dragger'
 
 const COMPONENT_NAME = 'ElUploadDrag'

@@ -18,7 +18,7 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import { useLocale, useNamespace } from '@element-plus/hooks'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
 import ImgEmpty from './img-empty.vue'
 import { emptyProps } from './empty'
 

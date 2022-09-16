@@ -1,6 +1,6 @@
 // @ts-nocheck
-import { triggerEvent } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
+import { triggerEvent } from '@alex.dunn.adalyser/utils'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
 import type MenuItem from './menu-item'
 
 class SubMenu {

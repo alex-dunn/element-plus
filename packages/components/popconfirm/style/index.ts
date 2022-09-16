@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/popconfirm.scss'
-import '@element-plus/components/popover/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/popconfirm.scss'
+import '@alex.dunn.adalyser/components/popover/style'

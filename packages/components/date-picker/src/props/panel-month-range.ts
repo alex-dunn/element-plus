@@ -1,4 +1,4 @@
-import { buildProps } from '@element-plus/utils'
+import { buildProps } from '@alex.dunn.adalyser/utils'
 import { panelRangeSharedProps } from './shared'
 
 import type { ExtractPropTypes } from 'vue'

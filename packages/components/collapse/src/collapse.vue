@@ -6,10 +6,10 @@
 
 <script lang="ts" setup>
 import { provide, ref, watch } from 'vue'
-import { ensureArray } from '@element-plus/utils'
-import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
-import { collapseContextKey } from '@element-plus/tokens'
+import { ensureArray } from '@alex.dunn.adalyser/utils'
+import { CHANGE_EVENT, UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { collapseContextKey } from '@alex.dunn.adalyser/tokens'
 import { collapseEmits, collapseProps } from './collapse'
 import type { CollapseActiveName } from './collapse'
 

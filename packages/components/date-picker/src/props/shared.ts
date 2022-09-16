@@ -1,9 +1,9 @@
-import { buildProps, definePropType, isArray } from '@element-plus/utils'
-import { datePickTypes } from '@element-plus/constants'
+import { buildProps, definePropType, isArray } from '@alex.dunn.adalyser/utils'
+import { datePickTypes } from '@alex.dunn.adalyser/constants'
 
 import type { ExtractPropTypes } from 'vue'
 import type { Dayjs } from 'dayjs'
-import type { DatePickType } from '@element-plus/constants'
+import type { DatePickType } from '@alex.dunn.adalyser/constants'
 
 const selectionModes = ['date', 'dates', 'year', 'month', 'week', 'range']
 

@@ -3,10 +3,10 @@ import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import { useFormItem } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/constants'
+import { useFormItem } from '@alex.dunn.adalyser/hooks'
 import type { CSSProperties, Ref, SetupContext } from 'vue'
-import type { Arrayable } from '@element-plus/utils'
+import type { Arrayable } from '@alex.dunn.adalyser/utils'
 import type { SliderEmits, SliderInitData, SliderProps } from '../slider'
 import type { ButtonRefs, SliderButtonInstance } from '../button'
 

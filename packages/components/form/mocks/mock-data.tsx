@@ -1,6 +1,6 @@
 import { defineComponent, ref, toRef } from 'vue'
-import Input from '@element-plus/components/input'
-import Button from '@element-plus/components/button'
+import Input from '@alex.dunn.adalyser/components/input'
+import Button from '@alex.dunn.adalyser/components/button'
 import Form from '../src/form.vue'
 import FormItem from '../src/form-item.vue'
 

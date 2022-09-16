@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { computed, nextTick, ref, shallowRef, watch } from 'vue'
-import { isObject } from '@element-plus/utils'
+import { isObject } from '@alex.dunn.adalyser/utils'
 import {
   CURRENT_CHANGE,
   NODE_CLICK,

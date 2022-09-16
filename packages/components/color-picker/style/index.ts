@@ -1,4 +1,4 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/color-picker.scss'
-import '@element-plus/components/input/style'
-import '@element-plus/components/button/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/color-picker.scss'
+import '@alex.dunn.adalyser/components/input/style'
+import '@alex.dunn.adalyser/components/button/style'

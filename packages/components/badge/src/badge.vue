@@ -18,8 +18,8 @@
 
 <script lang="ts" setup>
 import { computed } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { isNumber } from '@element-plus/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { isNumber } from '@alex.dunn.adalyser/utils'
 import { badgeProps } from './badge'
 
 defineOptions({

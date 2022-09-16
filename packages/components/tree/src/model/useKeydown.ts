@@ -1,12 +1,12 @@
 // @ts-nocheck
 import { onMounted, onUpdated, shallowRef, watch } from 'vue'
 import { useEventListener } from '@vueuse/core'
-import { EVENT_CODE } from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import type TreeStore from './tree-store'
 
 import type { Ref } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@alex.dunn.adalyser/utils'
 
 interface UseKeydownOption {
   el$: Ref<HTMLElement>

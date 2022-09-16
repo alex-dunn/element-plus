@@ -55,11 +55,11 @@
 
 <script lang="ts" setup>
 import { computed, h, reactive, ref, useSlots, watch } from 'vue'
-import { debugWarn, isEmpty, isUndefined } from '@element-plus/utils'
-import { useFormItem, useLocale, useNamespace } from '@element-plus/hooks'
-import { ElButton } from '@element-plus/components/button'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowLeft, ArrowRight } from '@element-plus/icons-vue'
+import { debugWarn, isEmpty, isUndefined } from '@alex.dunn.adalyser/utils'
+import { useFormItem, useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
+import { ElButton } from '@alex.dunn.adalyser/components/button'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
 import { transferEmits, transferProps } from './transfer'
 import {
   useCheckedChange,

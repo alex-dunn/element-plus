@@ -1,6 +1,6 @@
 import { placements } from '@popperjs/core'
-import { buildProps, isNumber } from '@element-plus/utils'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
+import { buildProps, isNumber } from '@alex.dunn.adalyser/utils'
+import { UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
 import type { ExtractPropTypes, Ref } from 'vue'
 import type Button from './button.vue'
 

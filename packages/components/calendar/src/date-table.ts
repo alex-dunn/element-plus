@@ -1,5 +1,5 @@
-import { buildProps, definePropType, isObject } from '@element-plus/utils'
-import { rangeArr } from '@element-plus/components/time-picker'
+import { buildProps, definePropType, isObject } from '@alex.dunn.adalyser/utils'
+import { rangeArr } from '@alex.dunn.adalyser/components/time-picker'
 import type { ExtractPropTypes } from 'vue'
 import type { Dayjs } from 'dayjs'
 import type DateTable from './date-table.vue'

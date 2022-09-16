@@ -1,9 +1,9 @@
-import { ElInfiniteScroll } from '@element-plus/components/infinite-scroll'
-import { ElLoading } from '@element-plus/components/loading'
-import { ElMessage } from '@element-plus/components/message'
-import { ElMessageBox } from '@element-plus/components/message-box'
-import { ElNotification } from '@element-plus/components/notification'
-import { ElPopoverDirective } from '@element-plus/components/popover'
+import { ElInfiniteScroll } from '@alex.dunn.adalyser/components/infinite-scroll'
+import { ElLoading } from '@alex.dunn.adalyser/components/loading'
+import { ElMessage } from '@alex.dunn.adalyser/components/message'
+import { ElMessageBox } from '@alex.dunn.adalyser/components/message-box'
+import { ElNotification } from '@alex.dunn.adalyser/components/notification'
+import { ElPopoverDirective } from '@alex.dunn.adalyser/components/popover'
 
 import type { Plugin } from 'vue'
 

@@ -1,9 +1,9 @@
 // @ts-nocheck
 import { h } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { ElIcon } from '@element-plus/components/icon'
 import { ArrowRight, Loading } from '@element-plus/icons-vue'
-import { getProp } from '@element-plus/utils'
+import ElCheckbox from '@alex.dunn.adalyser/components/checkbox'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { getProp } from '@alex.dunn.adalyser/utils'
 
 import type { VNode } from 'vue'
 import type { TableColumnCtx } from './table-column/defaults'

@@ -50,13 +50,22 @@
 </template>
 <script lang="ts" setup>
 import { computed, inject, markRaw, ref, watch } from 'vue'
-import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { hasClass, isArray, isObject, isString } from '@element-plus/utils'
-import { formContextKey, formItemContextKey } from '@element-plus/tokens'
-import { ElIcon } from '@element-plus/components/icon'
-import { useFormItemInputId, useNamespace, useSize } from '@element-plus/hooks'
+import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
+import {
+  hasClass,
+  isArray,
+  isObject,
+  isString,
+} from '@alex.dunn.adalyser/utils'
+import { formContextKey, formItemContextKey } from '@alex.dunn.adalyser/tokens'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import {
+  useFormItemInputId,
+  useNamespace,
+  useSize,
+} from '@alex.dunn.adalyser/hooks'
 import { rateEmits, rateProps } from './rate'
-import type { iconPropType } from '@element-plus/utils'
+import type { iconPropType } from '@alex.dunn.adalyser/utils'
 import type { CSSProperties, Component } from 'vue'
 
 function getValueFromMap<T>(

@@ -1,4 +1,4 @@
-import ElEmpty from '@element-plus/components/empty'
+import ElEmpty from '@alex.dunn.adalyser/components/empty'
 import type { CSSProperties, FunctionalComponent } from 'vue'
 
 type EmptyRendererProps = {

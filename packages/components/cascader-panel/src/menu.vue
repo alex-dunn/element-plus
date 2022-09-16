@@ -35,17 +35,17 @@
 
 <script lang="ts">
 import { computed, defineComponent, getCurrentInstance, inject, ref } from 'vue'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { generateId } from '@element-plus/utils'
 import { Loading } from '@element-plus/icons-vue'
-import ElIcon from '@element-plus/components/icon'
+import ElScrollbar from '@alex.dunn.adalyser/components/scrollbar'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
+import { generateId } from '@alex.dunn.adalyser/utils'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
 import ElCascaderNode from './node.vue'
 import { CASCADER_PANEL_INJECTION_KEY } from './types'
 
 import type { default as CascaderNode } from './node'
 import type { PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@alex.dunn.adalyser/utils'
 
 export default defineComponent({
   name: 'ElCascaderMenu',

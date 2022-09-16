@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-checkbox-group.css'
+import '@alex.dunn.adalyser/components/base/style/css'
+import '@alex.dunn.adalyser/theme-chalk/el-checkbox-group.css'

@@ -16,8 +16,8 @@ import {
   hasOwn,
   isNumber,
   isString,
-} from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import Scrollbar from '../components/scrollbar'
 import { useGridWheel } from '../hooks/use-grid-wheel'
 import { useCache } from '../hooks/use-cache'

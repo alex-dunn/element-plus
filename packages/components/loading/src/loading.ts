@@ -10,8 +10,8 @@ import {
   withCtx,
   withDirectives,
 } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { removeClass } from '@element-plus/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { removeClass } from '@alex.dunn.adalyser/utils'
 
 import type { LoadingOptionsResolved } from './types'
 

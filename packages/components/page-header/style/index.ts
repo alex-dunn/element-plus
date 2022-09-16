@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/components/divider/style'
-import '@element-plus/theme-chalk/src/page-header.scss'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/components/divider/style'
+import '@alex.dunn.adalyser/theme-chalk/src/page-header.scss'

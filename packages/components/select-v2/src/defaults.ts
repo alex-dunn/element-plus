@@ -1,11 +1,11 @@
 import { placements } from '@popperjs/core'
-import { definePropType, isValidComponentSize } from '@element-plus/utils'
-import { useTooltipContentProps } from '@element-plus/components/tooltip'
 import { CircleClose } from '@element-plus/icons-vue'
+import { definePropType, isValidComponentSize } from '@alex.dunn.adalyser/utils'
+import { useTooltipContentProps } from '@alex.dunn.adalyser/components/tooltip'
 import type { Component, PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@alex.dunn.adalyser/constants'
 import type { OptionType } from './select.types'
-import type { Options, Placement } from '@element-plus/components/popper'
+import type { Options, Placement } from '@alex.dunn.adalyser/components/popper'
 
 export const SelectProps = {
   allowCreate: Boolean,

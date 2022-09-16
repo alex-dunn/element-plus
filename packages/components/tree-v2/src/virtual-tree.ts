@@ -3,7 +3,7 @@ import {
   definePropType,
   iconPropType,
   mutable,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 import type { InjectionKey } from 'vue'
 import type { TreeNodeData } from '../../tree/src/tree.type'
 import type {

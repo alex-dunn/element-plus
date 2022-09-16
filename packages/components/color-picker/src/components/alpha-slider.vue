@@ -29,12 +29,12 @@ import {
   shallowRef,
   watch,
 } from 'vue'
-import { getClientXY } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+import { getClientXY } from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import draggable from '../draggable'
 
 import type { PropType } from 'vue'
-import type { Nullable } from '@element-plus/utils'
+import type { Nullable } from '@alex.dunn.adalyser/utils'
 import type Color from '../color'
 
 export default defineComponent({

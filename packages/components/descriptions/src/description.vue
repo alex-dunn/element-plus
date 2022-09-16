@@ -27,8 +27,8 @@
 <script lang="ts" setup>
 // @ts-nocheck
 import { computed, provide, useSlots } from 'vue'
-import { flattedChildren } from '@element-plus/utils'
-import { useNamespace, useSize } from '@element-plus/hooks'
+import { flattedChildren } from '@alex.dunn.adalyser/utils'
+import { useNamespace, useSize } from '@alex.dunn.adalyser/hooks'
 import ElDescriptionsRow from './descriptions-row.vue'
 import { descriptionsKey } from './token'
 import { descriptionProps } from './description'

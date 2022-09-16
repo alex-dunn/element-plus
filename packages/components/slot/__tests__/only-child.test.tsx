@@ -1,14 +1,14 @@
 import { Comment, Fragment, h, nextTick, ref } from 'vue'
 import { shallowMount } from '@vue/test-utils'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { debugWarn } from '@element-plus/utils'
-import { FORWARD_REF_INJECTION_KEY } from '@element-plus/hooks'
+import { debugWarn } from '@alex.dunn.adalyser/utils'
+import { FORWARD_REF_INJECTION_KEY } from '@alex.dunn.adalyser/hooks'
 import { OnlyChild } from '../src/only-child'
 import type { MountingOptions } from '@vue/test-utils'
 
 type Slot = NonNullable<NonNullable<MountingOptions<any>['slots']>['default']>
 
-vi.mock('@element-plus/utils/error', () => ({
+vi.mock('@alex.dunn.adalyser/utils/error', () => ({
   debugWarn: vi.fn(),
 }))
 

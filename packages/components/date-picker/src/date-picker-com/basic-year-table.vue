@@ -33,9 +33,9 @@
 <script lang="ts" setup>
 import { computed, nextTick, ref, watch } from 'vue'
 import dayjs from 'dayjs'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { rangeArr } from '@element-plus/components/time-picker'
-import { castArray, hasClass } from '@element-plus/utils'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
+import { rangeArr } from '@alex.dunn.adalyser/components/time-picker'
+import { castArray, hasClass } from '@alex.dunn.adalyser/utils'
 import { basicYearTableProps } from '../props/basic-year-table'
 
 const datesInYear = (year: number, lang: string) => {

@@ -1,5 +1,5 @@
 import { defineComponent, h, provide, renderSlot } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 
 const Timeline = defineComponent({
   name: 'ElTimeline',

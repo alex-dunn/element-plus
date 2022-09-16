@@ -1,5 +1,5 @@
-import { CHANGE_EVENT } from '@element-plus/constants'
-import { buildProps, isNumber } from '@element-plus/utils'
+import { CHANGE_EVENT } from '@alex.dunn.adalyser/constants'
+import { buildProps, isNumber } from '@alex.dunn.adalyser/utils'
 import type Steps from './steps.vue'
 import type { ExtractPropTypes } from 'vue'
 

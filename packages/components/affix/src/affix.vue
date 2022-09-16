@@ -13,8 +13,8 @@ import {
   useEventListener,
   useWindowSize,
 } from '@vueuse/core'
-import { getScrollContainer, throwError } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+import { getScrollContainer, throwError } from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import { affixEmits, affixProps } from './affix'
 import type { CSSProperties } from 'vue'
 

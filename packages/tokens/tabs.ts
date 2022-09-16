@@ -1,4 +1,7 @@
-import type { TabPaneProps, TabsProps } from '@element-plus/components/tabs'
+import type {
+  TabPaneProps,
+  TabsProps,
+} from '@alex.dunn.adalyser/components/tabs'
 import type { ComputedRef, InjectionKey, Ref, Slots, UnwrapRef } from 'vue'
 
 export type TabsPaneContext = UnwrapRef<{

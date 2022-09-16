@@ -4,9 +4,9 @@ import {
   definePropType,
   iconPropType,
   mutable,
-} from '@element-plus/utils'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { useSizeProp } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/utils'
+import { UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
+import { useSizeProp } from '@alex.dunn.adalyser/hooks'
 import type Input from './input.vue'
 import type { ExtractPropTypes, StyleValue } from 'vue'
 

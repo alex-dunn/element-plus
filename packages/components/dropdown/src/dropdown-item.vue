@@ -24,8 +24,8 @@ import {
   ref,
   unref,
 } from 'vue'
-import { ElRovingFocusItem } from '@element-plus/components/roving-focus-group'
-import { composeEventHandlers, whenMouse } from '@element-plus/utils'
+import { ElRovingFocusItem } from '@alex.dunn.adalyser/components/roving-focus-group'
+import { composeEventHandlers, whenMouse } from '@alex.dunn.adalyser/utils'
 import ElDropdownItemImpl from './dropdown-item-impl.vue'
 import { useDropdown } from './useDropdown'
 import {

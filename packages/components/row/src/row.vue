@@ -14,8 +14,8 @@
 
 <script setup lang="ts">
 import { computed, provide } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { rowContextKey } from '@element-plus/tokens'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { rowContextKey } from '@alex.dunn.adalyser/tokens'
 import { rowProps } from './row'
 import type { CSSProperties } from 'vue'
 

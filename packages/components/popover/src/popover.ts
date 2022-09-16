@@ -1,9 +1,9 @@
-import { buildProps, isBoolean } from '@element-plus/utils'
+import { buildProps, isBoolean } from '@alex.dunn.adalyser/utils'
 import {
   useTooltipContentProps,
   useTooltipTriggerProps,
-} from '@element-plus/components/tooltip'
-import { dropdownProps } from '@element-plus/components/dropdown'
+} from '@alex.dunn.adalyser/components/tooltip'
+import { dropdownProps } from '@alex.dunn.adalyser/components/dropdown'
 import type { ExtractPropTypes, PropType } from 'vue'
 import type Popover from './popover.vue'
 

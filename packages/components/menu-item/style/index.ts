@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/menu-item.scss'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/menu-item.scss'

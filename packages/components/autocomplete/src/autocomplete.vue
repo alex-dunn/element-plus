@@ -106,23 +106,23 @@ import {
 import { debounce } from 'lodash-unified'
 import { onClickOutside } from '@vueuse/core'
 import { Loading } from '@element-plus/icons-vue'
-import { useAttrs, useDisabled, useNamespace } from '@element-plus/hooks'
-import { generateId, isArray, throwError } from '@element-plus/utils'
+import { useAttrs, useDisabled, useNamespace } from '@alex.dunn.adalyser/hooks'
+import { generateId, isArray, throwError } from '@alex.dunn.adalyser/utils'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import ElInput from '@element-plus/components/input'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElIcon from '@element-plus/components/icon'
+} from '@alex.dunn.adalyser/constants'
+import ElInput from '@alex.dunn.adalyser/components/input'
+import ElScrollbar from '@alex.dunn.adalyser/components/scrollbar'
+import ElTooltip from '@alex.dunn.adalyser/components/tooltip'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
 import { autocompleteEmits, autocompleteProps } from './autocomplete'
 import type { AutocompleteData } from './autocomplete'
 
 import type { StyleValue } from 'vue'
-import type { TooltipInstance } from '@element-plus/components/tooltip'
-import type { InputInstance } from '@element-plus/components/input'
+import type { TooltipInstance } from '@alex.dunn.adalyser/components/tooltip'
+import type { InputInstance } from '@alex.dunn.adalyser/components/input'
 
 defineOptions({
   name: 'ElAutocomplete',

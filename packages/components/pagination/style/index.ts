@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/pagination.scss'
-import '@element-plus/components/select/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/pagination.scss'
+import '@alex.dunn.adalyser/components/select/style'

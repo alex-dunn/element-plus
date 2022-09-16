@@ -1,4 +1,4 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@alex.dunn.adalyser/utils'
 import { disabledTimeListsProps } from '../props/shared'
 
 import type { ExtractPropTypes } from 'vue'

@@ -1,5 +1,5 @@
 import type { InjectionKey, Ref } from 'vue'
-import type { useNamespace } from '@element-plus/hooks'
+import type { useNamespace } from '@alex.dunn.adalyser/hooks'
 
 export type TooltipV2Context = {
   onClose: () => void

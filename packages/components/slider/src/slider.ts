@@ -4,14 +4,14 @@ import {
   definePropType,
   isArray,
   isNumber,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
-import { useSizeProp } from '@element-plus/hooks'
-import type { Arrayable } from '@element-plus/utils'
+} from '@alex.dunn.adalyser/constants'
+import { useSizeProp } from '@alex.dunn.adalyser/hooks'
+import type { Arrayable } from '@alex.dunn.adalyser/utils'
 import type { ExtractPropTypes } from 'vue'
 import type { SliderMarkerProps } from './marker'
 import type Slider from './slider.vue'

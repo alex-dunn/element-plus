@@ -14,8 +14,8 @@ import {
   isFragment,
   isNumber,
   isValidElementNode,
-} from '@element-plus/utils'
-import { componentSizes } from '@element-plus/constants'
+} from '@alex.dunn.adalyser/utils'
+import { componentSizes } from '@alex.dunn.adalyser/constants'
 import Item from './item'
 import { useSpace } from './use-space'
 
@@ -26,7 +26,7 @@ import type {
   VNodeArrayChildren,
   VNodeChild,
 } from 'vue'
-import type { Arrayable } from '@element-plus/utils'
+import type { Arrayable } from '@alex.dunn.adalyser/utils'
 import type { AlignItemsProperty } from 'csstype'
 
 export const spaceProps = buildProps({

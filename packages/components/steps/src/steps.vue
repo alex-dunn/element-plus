@@ -6,8 +6,8 @@
 
 <script lang="ts" setup>
 import { provide, ref, watch } from 'vue'
-import { CHANGE_EVENT } from '@element-plus/constants'
-import { useNamespace } from '@element-plus/hooks'
+import { CHANGE_EVENT } from '@alex.dunn.adalyser/constants'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import { stepsEmits, stepsProps } from './steps'
 
 import type { Ref } from 'vue'

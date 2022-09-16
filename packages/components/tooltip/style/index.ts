@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/tooltip.scss'
-import '@element-plus/components/popper/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/tooltip.scss'
+import '@alex.dunn.adalyser/components/popper/style'

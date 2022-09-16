@@ -1,4 +1,4 @@
-import { buildProps } from '@element-plus/utils'
+import { buildProps } from '@alex.dunn.adalyser/utils'
 import type SkeletonItem from './skeleton-item.vue'
 import type { ExtractPropTypes } from 'vue'
 

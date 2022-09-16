@@ -1,5 +1,5 @@
 import { defineComponent, getCurrentInstance, nextTick } from 'vue'
-import { ElOption } from '@element-plus/components/select'
+import { ElOption } from '@alex.dunn.adalyser/components/select'
 
 const component = defineComponent({
   extends: ElOption,

@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/upload.scss'
-import '@element-plus/components/progress/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/upload.scss'
+import '@alex.dunn.adalyser/components/progress/style'

@@ -1,5 +1,5 @@
 {
-  "name": "@element-plus/play",
+  "name": "@alex.dunn.adalyser/play",
   "private": true,
   "scripts": {
     "dev": "vite",

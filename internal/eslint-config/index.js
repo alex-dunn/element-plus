@@ -249,7 +249,7 @@ module.exports = defineConfig({
             position: 'before',
           },
           {
-            pattern: '@element-plus/**',
+            pattern: '@alex.dunn.adalyser/**',
             group: 'internal',
           },
         ],

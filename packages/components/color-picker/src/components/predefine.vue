@@ -20,7 +20,7 @@
 <script lang="ts">
 // @ts-nocheck
 import { defineComponent, ref, watch, watchEffect } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import { useOptions } from '../useOption'
 import Color from '../color'
 

@@ -39,14 +39,14 @@ import {
 import { NOOP } from '@vue/shared'
 import { isNil } from 'lodash-unified'
 import { createPopper } from '@popperjs/core'
-import ElFocusTrap from '@element-plus/components/focus-trap'
-import { useNamespace, useZIndex } from '@element-plus/hooks'
+import ElFocusTrap from '@alex.dunn.adalyser/components/focus-trap'
+import { useNamespace, useZIndex } from '@alex.dunn.adalyser/hooks'
 import {
   POPPER_CONTENT_INJECTION_KEY,
   POPPER_INJECTION_KEY,
   formItemContextKey,
-} from '@element-plus/tokens'
-import { isElement } from '@element-plus/utils'
+} from '@alex.dunn.adalyser/tokens'
+import { isElement } from '@alex.dunn.adalyser/utils'
 import { usePopperContentEmits, usePopperContentProps } from './content'
 import { buildPopperOptions, unwrapMeasurableEl } from './utils'
 

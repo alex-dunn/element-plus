@@ -1,4 +1,4 @@
-import { buildProps } from '@element-plus/utils'
+import { buildProps } from '@alex.dunn.adalyser/utils'
 import type { ExtractPropTypes } from 'vue'
 import type CarouselItem from './carousel-item.vue'
 

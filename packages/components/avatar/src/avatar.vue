@@ -17,9 +17,9 @@
 
 <script lang="ts" setup>
 import { computed, ref, watch } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
-import { addUnit, isNumber, isString } from '@element-plus/utils'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { addUnit, isNumber, isString } from '@alex.dunn.adalyser/utils'
 import { avatarEmits, avatarProps } from './avatar'
 
 import type { CSSProperties } from 'vue'

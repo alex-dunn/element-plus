@@ -62,20 +62,25 @@
 <script lang="ts" setup>
 import { computed, onMounted, onUpdated, reactive, ref, watch } from 'vue'
 import { isNil } from 'lodash-unified'
-import { ElInput } from '@element-plus/components/input'
-import { ElIcon } from '@element-plus/components/icon'
-import { RepeatClick as vRepeatClick } from '@element-plus/directives'
+import { ArrowDown, ArrowUp, Minus, Plus } from '@element-plus/icons-vue'
+import { ElInput } from '@alex.dunn.adalyser/components/input'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { RepeatClick as vRepeatClick } from '@alex.dunn.adalyser/directives'
 import {
   useDisabled,
   useFormItem,
   useLocale,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import { debugWarn, isNumber, isString, isUndefined } from '@element-plus/utils'
-import { ArrowDown, ArrowUp, Minus, Plus } from '@element-plus/icons-vue'
+} from '@alex.dunn.adalyser/hooks'
+import {
+  debugWarn,
+  isNumber,
+  isString,
+  isUndefined,
+} from '@alex.dunn.adalyser/utils'
 import { inputNumberEmits, inputNumberProps } from './input-number'
-import type { InputInstance } from '@element-plus/components/input'
+import type { InputInstance } from '@alex.dunn.adalyser/components/input'
 
 defineOptions({
   name: 'ElInputNumber',

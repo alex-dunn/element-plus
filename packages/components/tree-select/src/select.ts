@@ -1,10 +1,10 @@
 // @ts-nocheck
 import { computed, nextTick, toRefs } from 'vue'
 import { pick } from 'lodash-unified'
-import ElSelect from '@element-plus/components/select'
-import { useNamespace } from '@element-plus/hooks'
+import ElSelect from '@alex.dunn.adalyser/components/select'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import type { Ref } from 'vue'
-import type ElTree from '@element-plus/components/tree'
+import type ElTree from '@alex.dunn.adalyser/components/tree'
 
 export const useSelect = (
   props,

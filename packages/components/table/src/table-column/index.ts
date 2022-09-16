@@ -10,8 +10,8 @@ import {
   onMounted,
   ref,
 } from 'vue'
-import ElCheckbox from '@element-plus/components/checkbox'
-import { isString } from '@element-plus/utils'
+import ElCheckbox from '@alex.dunn.adalyser/components/checkbox'
+import { isString } from '@alex.dunn.adalyser/utils'
 import { cellStarts } from '../config'
 import { compose, mergeOptions } from '../util'
 import useWatcher from './watcher-helper'

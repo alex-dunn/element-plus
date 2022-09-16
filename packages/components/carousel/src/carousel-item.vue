@@ -28,9 +28,9 @@ import {
   ref,
   unref,
 } from 'vue'
-import { debugWarn, isUndefined } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
-import { carouselContextKey } from '@element-plus/tokens'
+import { debugWarn, isUndefined } from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { carouselContextKey } from '@alex.dunn.adalyser/tokens'
 import { carouselItemProps } from './carousel-item'
 
 import type { CSSProperties } from 'vue'

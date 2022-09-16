@@ -83,12 +83,16 @@
 import { computed, defineComponent, ref } from 'vue'
 import { Close } from '@element-plus/icons-vue'
 
-import { ElOverlay } from '@element-plus/components/overlay'
-import ElFocusTrap from '@element-plus/components/focus-trap'
-import { useDialog } from '@element-plus/components/dialog'
-import { addUnit } from '@element-plus/utils'
-import ElIcon from '@element-plus/components/icon'
-import { useDeprecated, useLocale, useNamespace } from '@element-plus/hooks'
+import { ElOverlay } from '@alex.dunn.adalyser/components/overlay'
+import ElFocusTrap from '@alex.dunn.adalyser/components/focus-trap'
+import { useDialog } from '@alex.dunn.adalyser/components/dialog'
+import { addUnit } from '@alex.dunn.adalyser/utils'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import {
+  useDeprecated,
+  useLocale,
+  useNamespace,
+} from '@alex.dunn.adalyser/hooks'
 import { drawerEmits, drawerProps } from './drawer'
 
 export default defineComponent({

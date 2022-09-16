@@ -1,7 +1,7 @@
 import { h, inject, nextTick } from 'vue'
 import { mount } from '@vue/test-utils'
 import { describe, expect, it } from 'vitest'
-import { POPPER_INJECTION_KEY } from '@element-plus/tokens'
+import { POPPER_INJECTION_KEY } from '@alex.dunn.adalyser/tokens'
 import ElPopper from '../src/popper.vue'
 
 const AXIOM = 'rem is the best girl'

@@ -4,7 +4,7 @@
   </main>
 </template>
 <script lang="ts" setup>
-import { useNamespace } from '@element-plus/hooks'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 
 defineOptions({
   name: 'ElMain',

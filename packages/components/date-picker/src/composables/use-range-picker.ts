@@ -1,7 +1,7 @@
 import { getCurrentInstance, inject, ref, unref, watch } from 'vue'
-import { isArray } from '@element-plus/utils'
-import { ROOT_PICKER_INJECTION_KEY } from '@element-plus/tokens'
-import { useLocale, useNamespace } from '@element-plus/hooks'
+import { isArray } from '@alex.dunn.adalyser/utils'
+import { ROOT_PICKER_INJECTION_KEY } from '@alex.dunn.adalyser/tokens'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
 import { getDefaultValue, isValidRange } from '../utils'
 import { useShortcut } from './use-shortcut'
 

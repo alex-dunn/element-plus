@@ -1,8 +1,8 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@alex.dunn.adalyser/utils'
 import {
   virtualizedGridProps,
   virtualizedScrollbarProps,
-} from '@element-plus/components/virtual-list'
+} from '@alex.dunn.adalyser/components/virtual-list'
 import {
   classType,
   columns,

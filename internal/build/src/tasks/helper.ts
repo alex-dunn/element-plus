@@ -13,7 +13,7 @@ import {
   epPackage,
   getPackageManifest,
   projRoot,
-} from '@element-plus/build-utils'
+} from '@alex.dunn.adalyser/build-utils'
 
 import type { TaskFunction } from 'gulp'
 import type {

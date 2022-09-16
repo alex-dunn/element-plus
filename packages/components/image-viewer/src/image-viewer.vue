@@ -93,10 +93,6 @@ import {
 } from 'vue'
 import { isNumber, useEventListener } from '@vueuse/core'
 import { throttle } from 'lodash-unified'
-import { useLocale, useNamespace, useZIndex } from '@element-plus/hooks'
-import { EVENT_CODE } from '@element-plus/constants'
-import { isFirefox, keysOf } from '@element-plus/utils'
-import ElIcon from '@element-plus/components/icon'
 import {
   ArrowLeft,
   ArrowRight,
@@ -108,6 +104,10 @@ import {
   ZoomIn,
   ZoomOut,
 } from '@element-plus/icons-vue'
+import { useLocale, useNamespace, useZIndex } from '@alex.dunn.adalyser/hooks'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
+import { isFirefox, keysOf } from '@alex.dunn.adalyser/utils'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
 import { imageViewerEmits, imageViewerProps } from './image-viewer'
 
 import type { CSSProperties } from 'vue'

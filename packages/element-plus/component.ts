@@ -1,103 +1,118 @@
-import { ElAffix } from '@element-plus/components/affix'
-import { ElAlert } from '@element-plus/components/alert'
-import { ElAutocomplete } from '@element-plus/components/autocomplete'
-import { ElAvatar } from '@element-plus/components/avatar'
-import { ElBacktop } from '@element-plus/components/backtop'
-import { ElBadge } from '@element-plus/components/badge'
+import { ElAffix } from '@alex.dunn.adalyser/components/affix'
+import { ElAlert } from '@alex.dunn.adalyser/components/alert'
+import { ElAutocomplete } from '@alex.dunn.adalyser/components/autocomplete'
+import { ElAvatar } from '@alex.dunn.adalyser/components/avatar'
+import { ElBacktop } from '@alex.dunn.adalyser/components/backtop'
+import { ElBadge } from '@alex.dunn.adalyser/components/badge'
 import {
   ElBreadcrumb,
   ElBreadcrumbItem,
-} from '@element-plus/components/breadcrumb'
-import { ElButton, ElButtonGroup } from '@element-plus/components/button'
-import { ElCalendar } from '@element-plus/components/calendar'
-import { ElCard } from '@element-plus/components/card'
-import { ElCarousel, ElCarouselItem } from '@element-plus/components/carousel'
-import { ElCascader } from '@element-plus/components/cascader'
-import { ElCascaderPanel } from '@element-plus/components/cascader-panel'
-import { ElCheckTag } from '@element-plus/components/check-tag'
+} from '@alex.dunn.adalyser/components/breadcrumb'
+import { ElButton, ElButtonGroup } from '@alex.dunn.adalyser/components/button'
+import { ElCalendar } from '@alex.dunn.adalyser/components/calendar'
+import { ElCard } from '@alex.dunn.adalyser/components/card'
+import {
+  ElCarousel,
+  ElCarouselItem,
+} from '@alex.dunn.adalyser/components/carousel'
+import { ElCascader } from '@alex.dunn.adalyser/components/cascader'
+import { ElCascaderPanel } from '@alex.dunn.adalyser/components/cascader-panel'
+import { ElCheckTag } from '@alex.dunn.adalyser/components/check-tag'
 import {
   ElCheckbox,
   ElCheckboxButton,
   ElCheckboxGroup,
-} from '@element-plus/components/checkbox'
-import { ElCol } from '@element-plus/components/col'
-import { ElCollapse, ElCollapseItem } from '@element-plus/components/collapse'
-import { ElCollapseTransition } from '@element-plus/components/collapse-transition'
-import { ElColorPicker } from '@element-plus/components/color-picker'
-import { ElConfigProvider } from '@element-plus/components/config-provider'
+} from '@alex.dunn.adalyser/components/checkbox'
+import { ElCol } from '@alex.dunn.adalyser/components/col'
+import {
+  ElCollapse,
+  ElCollapseItem,
+} from '@alex.dunn.adalyser/components/collapse'
+import { ElCollapseTransition } from '@alex.dunn.adalyser/components/collapse-transition'
+import { ElColorPicker } from '@alex.dunn.adalyser/components/color-picker'
+import { ElConfigProvider } from '@alex.dunn.adalyser/components/config-provider'
 import {
   ElAside,
   ElContainer,
   ElFooter,
   ElHeader,
   ElMain,
-} from '@element-plus/components/container'
-import { ElDatePicker } from '@element-plus/components/date-picker'
+} from '@alex.dunn.adalyser/components/container'
+import { ElDatePicker } from '@alex.dunn.adalyser/components/date-picker'
 import {
   ElDescriptions,
   ElDescriptionsItem,
-} from '@element-plus/components/descriptions'
-import { ElDialog } from '@element-plus/components/dialog'
-import { ElDivider } from '@element-plus/components/divider'
-import { ElDrawer } from '@element-plus/components/drawer'
+} from '@alex.dunn.adalyser/components/descriptions'
+import { ElDialog } from '@alex.dunn.adalyser/components/dialog'
+import { ElDivider } from '@alex.dunn.adalyser/components/divider'
+import { ElDrawer } from '@alex.dunn.adalyser/components/drawer'
 import {
   ElDropdown,
   ElDropdownItem,
   ElDropdownMenu,
-} from '@element-plus/components/dropdown'
-import { ElEmpty } from '@element-plus/components/empty'
-import { ElForm, ElFormItem } from '@element-plus/components/form'
-import { ElIcon } from '@element-plus/components/icon'
-import { ElImage } from '@element-plus/components/image'
-import { ElImageViewer } from '@element-plus/components/image-viewer'
-import { ElInput } from '@element-plus/components/input'
-import { ElInputNumber } from '@element-plus/components/input-number'
-import { ElLink } from '@element-plus/components/link'
+} from '@alex.dunn.adalyser/components/dropdown'
+import { ElEmpty } from '@alex.dunn.adalyser/components/empty'
+import { ElForm, ElFormItem } from '@alex.dunn.adalyser/components/form'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { ElImage } from '@alex.dunn.adalyser/components/image'
+import { ElImageViewer } from '@alex.dunn.adalyser/components/image-viewer'
+import { ElInput } from '@alex.dunn.adalyser/components/input'
+import { ElInputNumber } from '@alex.dunn.adalyser/components/input-number'
+import { ElLink } from '@alex.dunn.adalyser/components/link'
 import {
   ElMenu,
   ElMenuItem,
   ElMenuItemGroup,
-} from '@element-plus/components/menu'
-import { ElPageHeader } from '@element-plus/components/page-header'
-import { ElPagination } from '@element-plus/components/pagination'
-import { ElPopconfirm } from '@element-plus/components/popconfirm'
-import { ElPopover } from '@element-plus/components/popover'
-import { ElPopper } from '@element-plus/components/popper'
-import { ElProgress } from '@element-plus/components/progress'
+} from '@alex.dunn.adalyser/components/menu'
+import { ElPageHeader } from '@alex.dunn.adalyser/components/page-header'
+import { ElPagination } from '@alex.dunn.adalyser/components/pagination'
+import { ElPopconfirm } from '@alex.dunn.adalyser/components/popconfirm'
+import { ElPopover } from '@alex.dunn.adalyser/components/popover'
+import { ElPopper } from '@alex.dunn.adalyser/components/popper'
+import { ElProgress } from '@alex.dunn.adalyser/components/progress'
 import {
   ElRadio,
   ElRadioButton,
   ElRadioGroup,
-} from '@element-plus/components/radio'
-import { ElRate } from '@element-plus/components/rate'
-import { ElResult } from '@element-plus/components/result'
-import { ElRow } from '@element-plus/components/row'
-import { ElScrollbar } from '@element-plus/components/scrollbar'
+} from '@alex.dunn.adalyser/components/radio'
+import { ElRate } from '@alex.dunn.adalyser/components/rate'
+import { ElResult } from '@alex.dunn.adalyser/components/result'
+import { ElRow } from '@alex.dunn.adalyser/components/row'
+import { ElScrollbar } from '@alex.dunn.adalyser/components/scrollbar'
 import {
   ElOption,
   ElOptionGroup,
   ElSelect,
-} from '@element-plus/components/select'
-import { ElSelectV2 } from '@element-plus/components/select-v2'
-import { ElSkeleton, ElSkeletonItem } from '@element-plus/components/skeleton'
-import { ElSlider } from '@element-plus/components/slider'
-import { ElSpace } from '@element-plus/components/space'
-import { ElStep, ElSteps } from '@element-plus/components/steps'
-import { ElSwitch } from '@element-plus/components/switch'
-import { ElTable, ElTableColumn } from '@element-plus/components/table'
-import { ElAutoResizer, ElTableV2 } from '@element-plus/components/table-v2'
-import { ElTabPane, ElTabs } from '@element-plus/components/tabs'
-import { ElTag } from '@element-plus/components/tag'
-import { ElTimePicker } from '@element-plus/components/time-picker'
-import { ElTimeSelect } from '@element-plus/components/time-select'
-import { ElTimeline, ElTimelineItem } from '@element-plus/components/timeline'
-import { ElTooltip } from '@element-plus/components/tooltip'
-import { ElTooltipV2 } from '@element-plus/components/tooltip-v2'
-import { ElTransfer } from '@element-plus/components/transfer'
-import { ElTree } from '@element-plus/components/tree'
-import { ElTreeSelect } from '@element-plus/components/tree-select'
-import { ElTreeV2 } from '@element-plus/components/tree-v2'
-import { ElUpload } from '@element-plus/components/upload'
+} from '@alex.dunn.adalyser/components/select'
+import { ElSelectV2 } from '@alex.dunn.adalyser/components/select-v2'
+import {
+  ElSkeleton,
+  ElSkeletonItem,
+} from '@alex.dunn.adalyser/components/skeleton'
+import { ElSlider } from '@alex.dunn.adalyser/components/slider'
+import { ElSpace } from '@alex.dunn.adalyser/components/space'
+import { ElStep, ElSteps } from '@alex.dunn.adalyser/components/steps'
+import { ElSwitch } from '@alex.dunn.adalyser/components/switch'
+import { ElTable, ElTableColumn } from '@alex.dunn.adalyser/components/table'
+import {
+  ElAutoResizer,
+  ElTableV2,
+} from '@alex.dunn.adalyser/components/table-v2'
+import { ElTabPane, ElTabs } from '@alex.dunn.adalyser/components/tabs'
+import { ElTag } from '@alex.dunn.adalyser/components/tag'
+import { ElTimePicker } from '@alex.dunn.adalyser/components/time-picker'
+import { ElTimeSelect } from '@alex.dunn.adalyser/components/time-select'
+import {
+  ElTimeline,
+  ElTimelineItem,
+} from '@alex.dunn.adalyser/components/timeline'
+import { ElTooltip } from '@alex.dunn.adalyser/components/tooltip'
+import { ElTooltipV2 } from '@alex.dunn.adalyser/components/tooltip-v2'
+import { ElTransfer } from '@alex.dunn.adalyser/components/transfer'
+import { ElTree } from '@alex.dunn.adalyser/components/tree'
+import { ElTreeSelect } from '@alex.dunn.adalyser/components/tree-select'
+import { ElTreeV2 } from '@alex.dunn.adalyser/components/tree-v2'
+import { ElUpload } from '@alex.dunn.adalyser/components/upload'
 import type { Plugin } from 'vue'
 
 export default [

@@ -4,18 +4,18 @@ import {
   definePropType,
   isObject,
   isString,
-} from '@element-plus/utils'
-import { useTooltipContentProps } from '@element-plus/components/tooltip'
+} from '@alex.dunn.adalyser/utils'
+import { useTooltipContentProps } from '@alex.dunn.adalyser/components/tooltip'
 import {
   CHANGE_EVENT,
   INPUT_EVENT,
   UPDATE_MODEL_EVENT,
-} from '@element-plus/constants'
+} from '@alex.dunn.adalyser/constants'
 
 import type { ExtractPropTypes } from 'vue'
 import type Autocomplete from './autocomplete.vue'
-import type { Placement } from '@element-plus/components/popper'
-import type { Awaitable } from '@element-plus/utils'
+import type { Placement } from '@alex.dunn.adalyser/components/popper'
+import type { Awaitable } from '@alex.dunn.adalyser/utils'
 
 export type AutocompleteData = Record<string, any>[]
 export type AutocompleteFetchSuggestionsCallback = (

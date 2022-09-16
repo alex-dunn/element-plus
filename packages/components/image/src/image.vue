@@ -54,14 +54,14 @@ import {
   watch,
 } from 'vue'
 import { isClient, useEventListener, useThrottleFn } from '@vueuse/core'
-import { useAttrs, useLocale, useNamespace } from '@element-plus/hooks'
-import ImageViewer from '@element-plus/components/image-viewer'
+import { useAttrs, useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
+import ImageViewer from '@alex.dunn.adalyser/components/image-viewer'
 import {
   getScrollContainer,
   isElement,
   isInContainer,
   isString,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 import { imageEmits, imageProps } from './image'
 
 import type { CSSProperties, StyleValue } from 'vue'

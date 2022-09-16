@@ -171,18 +171,18 @@
 import { computed, inject, nextTick, provide, ref, unref, watch } from 'vue'
 import { isEqual, isNil } from 'lodash-unified'
 import { onClickOutside } from '@vueuse/core'
+import { Calendar, Clock } from '@element-plus/icons-vue'
 import {
   useFormItem,
   useLocale,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import ElInput from '@element-plus/components/input'
-import ElIcon from '@element-plus/components/icon'
-import ElTooltip from '@element-plus/components/tooltip'
-import { debugWarn, isArray } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import { Calendar, Clock } from '@element-plus/icons-vue'
+} from '@alex.dunn.adalyser/hooks'
+import ElInput from '@alex.dunn.adalyser/components/input'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import ElTooltip from '@alex.dunn.adalyser/components/tooltip'
+import { debugWarn, isArray } from '@alex.dunn.adalyser/utils'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
 import { formatter, parseDate, valueEquals } from '../utils'
 import { timePickerDefaultProps } from './props'
 
@@ -198,7 +198,7 @@ import type {
   TimePickerDefaultProps,
   UserInput,
 } from './props'
-import type { TooltipInstance } from '@element-plus/components/tooltip'
+import type { TooltipInstance } from '@alex.dunn.adalyser/components/tooltip'
 
 // Date object and string
 

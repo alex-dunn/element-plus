@@ -1,12 +1,12 @@
 import { defineComponent, renderSlot, watch } from 'vue'
-import { buildProps, definePropType } from '@element-plus/utils'
-import { provideGlobalConfig, useSizeProp } from '@element-plus/hooks'
+import { buildProps, definePropType } from '@alex.dunn.adalyser/utils'
+import { provideGlobalConfig, useSizeProp } from '@alex.dunn.adalyser/hooks'
 
 import type { ExtractPropTypes } from 'vue'
-import type { ExperimentalFeatures } from '@element-plus/tokens'
-import type { Language } from '@element-plus/locale'
-import type { ButtonConfigContext } from '@element-plus/components/button'
-import type { MessageConfigContext } from '@element-plus/components/message'
+import type { ExperimentalFeatures } from '@alex.dunn.adalyser/tokens'
+import type { Language } from '@alex.dunn.adalyser/locale'
+import type { ButtonConfigContext } from '@alex.dunn.adalyser/components/button'
+import type { MessageConfigContext } from '@alex.dunn.adalyser/components/message'
 
 export const messageConfig: MessageConfigContext = {}
 

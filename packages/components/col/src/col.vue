@@ -6,9 +6,9 @@
 
 <script setup lang="ts">
 import { computed, inject } from 'vue'
-import { isNumber, isObject } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
-import { rowContextKey } from '@element-plus/tokens'
+import { isNumber, isObject } from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { rowContextKey } from '@alex.dunn.adalyser/tokens'
 import { colProps } from './col'
 import type { CSSProperties } from 'vue'
 

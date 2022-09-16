@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-drawer.css'
-import '@element-plus/components/overlay/style/css'
+import '@alex.dunn.adalyser/components/base/style/css'
+import '@alex.dunn.adalyser/theme-chalk/el-drawer.css'
+import '@alex.dunn.adalyser/components/overlay/style/css'

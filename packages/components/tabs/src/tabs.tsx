@@ -8,24 +8,24 @@ import {
   renderSlot,
   watch,
 } from 'vue'
+import { Plus } from '@element-plus/icons-vue'
 import {
   buildProps,
   definePropType,
   isNumber,
   isString,
   isUndefined,
-} from '@element-plus/utils'
-import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import ElIcon from '@element-plus/components/icon'
-import { Plus } from '@element-plus/icons-vue'
-import { tabsRootContextKey } from '@element-plus/tokens'
-import { useDeprecated, useNamespace } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/utils'
+import { EVENT_CODE, UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import { tabsRootContextKey } from '@alex.dunn.adalyser/tokens'
+import { useDeprecated, useNamespace } from '@alex.dunn.adalyser/hooks'
 import TabNav from './tab-nav'
 import type { TabNavInstance } from './tab-nav'
-import type { TabsPaneContext } from '@element-plus/tokens'
+import type { TabsPaneContext } from '@alex.dunn.adalyser/tokens'
 
 import type { ExtractPropTypes } from 'vue'
-import type { Awaitable } from '@element-plus/utils'
+import type { Awaitable } from '@alex.dunn.adalyser/utils'
 
 export type TabPanelName = string | number
 

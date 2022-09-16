@@ -1,5 +1,5 @@
 {
-  "name": "@element-plus/theme-chalk",
+  "name": "@alex.dunn.adalyser/theme-chalk",
   "version": "0.1.0",
   "description": "Element component chalk theme.",
   "keywords": [
@@ -27,7 +27,7 @@
     "build": "gulp --require @esbuild-kit/cjs-loader"
   },
   "devDependencies": {
-    "@element-plus/build": "workspace:*",
+    "@alex.dunn.adalyser/build": "workspace:*",
     "@esbuild-kit/cjs-loader": "^2.2.1",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-clean-css": "^4.3.0",

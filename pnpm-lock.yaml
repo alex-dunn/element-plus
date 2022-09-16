@@ -4,21 +4,21 @@ importers:
 
   .:
     specifiers:
+      '@alex.dunn.adalyser/build': workspace:^0.0.1
+      '@alex.dunn.adalyser/build-utils': workspace:^0.0.1
+      '@alex.dunn.adalyser/components': workspace:*
+      '@alex.dunn.adalyser/constants': workspace:*
+      '@alex.dunn.adalyser/directives': workspace:*
+      '@alex.dunn.adalyser/eslint-config': workspace:*
+      '@alex.dunn.adalyser/hooks': workspace:*
+      '@alex.dunn.adalyser/locale': workspace:*
+      '@alex.dunn.adalyser/test-utils': workspace:*
+      '@alex.dunn.adalyser/theme-chalk': workspace:*
+      '@alex.dunn.adalyser/tokens': workspace:*
+      '@alex.dunn.adalyser/utils': workspace:*
       '@commitlint/cli': ^17.0.3
       '@commitlint/config-conventional': ^17.0.3
-      '@element-plus/build': workspace:^0.0.1
-      '@element-plus/build-utils': workspace:^0.0.1
-      '@element-plus/components': workspace:*
-      '@element-plus/constants': workspace:*
-      '@element-plus/directives': workspace:*
-      '@element-plus/eslint-config': workspace:*
-      '@element-plus/hooks': workspace:*
       '@element-plus/icons-vue': ^2.0.6
-      '@element-plus/locale': workspace:*
-      '@element-plus/test-utils': workspace:*
-      '@element-plus/theme-chalk': workspace:*
-      '@element-plus/tokens': workspace:*
-      '@element-plus/utils': workspace:*
       '@esbuild-kit/cjs-loader': ^2.2.1
       '@floating-ui/dom': ^1.0.1
       '@pnpm/find-workspace-packages': ^4.0.16
@@ -77,16 +77,16 @@ importers:
       vue-router: ^4.0.16
       vue-tsc: ^0.38.2
     dependencies:
-      '@element-plus/components': link:packages/components
-      '@element-plus/constants': link:packages/constants
-      '@element-plus/directives': link:packages/directives
-      '@element-plus/hooks': link:packages/hooks
+      '@alex.dunn.adalyser/components': link:packages/components
+      '@alex.dunn.adalyser/constants': link:packages/constants
+      '@alex.dunn.adalyser/directives': link:packages/directives
+      '@alex.dunn.adalyser/hooks': link:packages/hooks
+      '@alex.dunn.adalyser/locale': link:packages/locale
+      '@alex.dunn.adalyser/test-utils': link:packages/test-utils
+      '@alex.dunn.adalyser/theme-chalk': link:packages/theme-chalk
+      '@alex.dunn.adalyser/tokens': link:packages/tokens
+      '@alex.dunn.adalyser/utils': link:packages/utils
       '@element-plus/icons-vue': 2.0.6_vue@3.2.37
-      '@element-plus/locale': link:packages/locale
-      '@element-plus/test-utils': link:packages/test-utils
-      '@element-plus/theme-chalk': link:packages/theme-chalk
-      '@element-plus/tokens': link:packages/tokens
-      '@element-plus/utils': link:packages/utils
       '@floating-ui/dom': 1.0.1
       '@popperjs/core': /@sxzz/popperjs-es/2.11.7
       '@types/lodash': 4.14.182
@@ -101,11 +101,11 @@ importers:
       memoize-one: 6.0.0
       normalize-wheel-es: 1.2.0
     devDependencies:
+      '@alex.dunn.adalyser/build': link:internal/build
+      '@alex.dunn.adalyser/build-utils': link:internal/build-utils
+      '@alex.dunn.adalyser/eslint-config': link:internal/eslint-config
       '@commitlint/cli': 17.0.3
       '@commitlint/config-conventional': 17.0.3
-      '@element-plus/build': link:internal/build
-      '@element-plus/build-utils': link:internal/build-utils
-      '@element-plus/eslint-config': link:internal/eslint-config
       '@esbuild-kit/cjs-loader': 2.2.1
       '@pnpm/find-workspace-packages': 4.0.16_@pnpm+logger@4.0.0
       '@pnpm/logger': 4.0.0
@@ -153,14 +153,14 @@ importers:
 
   docs:
     specifiers:
+      '@alex.dunn.adalyser/build': workspace:*
+      '@alex.dunn.adalyser/build-constants': workspace:*
+      '@alex.dunn.adalyser/build-utils': workspace:*
+      '@alex.dunn.adalyser/metadata': workspace:*
       '@crowdin/cli': ^3.7.8
       '@docsearch/js': ^3.1.0
       '@docsearch/react': ^3.1.0
-      '@element-plus/build': workspace:*
-      '@element-plus/build-constants': workspace:*
-      '@element-plus/build-utils': workspace:*
       '@element-plus/icons-vue': ^2.0.9
-      '@element-plus/metadata': workspace:*
       '@iconify-json/ri': ^1.1.3
       '@types/markdown-it': ^12.2.3
       '@vitejs/plugin-vue-jsx': ^1.3.10
@@ -191,25 +191,25 @@ importers:
       vitepress: ^0.22.4
       vue: ^3.2.37
     dependencies:
+      '@alex.dunn.adalyser/metadata': link:../internal/metadata
       '@docsearch/js': 3.1.0
       '@element-plus/icons-vue': 2.0.9_vue@3.2.37
-      '@element-plus/metadata': link:../internal/metadata
       '@vue/shared': 3.2.37
       '@vueuse/core': 9.1.0_vue@3.2.37
       axios: 0.27.2
       clipboard-copy: 4.0.1
-      element-plus: 2.2.16_vue@3.2.37
+      element-plus: 2.2.17_vue@3.2.37
       markdown-it: 13.0.1
       normalize.css: 8.0.1
       nprogress: 0.2.0
       prism-theme-vars: 0.2.3
       vue: 3.2.37
     devDependencies:
+      '@alex.dunn.adalyser/build': link:../internal/build
+      '@alex.dunn.adalyser/build-constants': link:../internal/build-constants
+      '@alex.dunn.adalyser/build-utils': link:../internal/build-utils
       '@crowdin/cli': 3.7.8
       '@docsearch/react': 3.1.0
-      '@element-plus/build': link:../internal/build
-      '@element-plus/build-constants': link:../internal/build-constants
-      '@element-plus/build-utils': link:../internal/build-utils
       '@iconify-json/ri': 1.1.3
       '@types/markdown-it': 12.2.3
       '@vitejs/plugin-vue-jsx': 1.3.10
@@ -232,7 +232,7 @@ importers:
 
   internal/build:
     specifiers:
-      '@element-plus/build-constants': ^0.0.1
+      '@alex.dunn.adalyser/build-constants': ^0.0.1
       '@esbuild-kit/cjs-loader': ^2.2.1
       '@pnpm/find-workspace-packages': ^4.0.16
       '@pnpm/logger': ^4.0.0
@@ -256,7 +256,7 @@ importers:
       unplugin-vue-define-options: ^0.6.1
       vue: ^3.2.37
     dependencies:
-      '@element-plus/build-constants': link:../build-constants
+      '@alex.dunn.adalyser/build-constants': link:../build-constants
       '@pnpm/find-workspace-packages': 4.0.16_@pnpm+logger@4.0.0
       '@pnpm/logger': 4.0.0
       '@rollup/plugin-commonjs': 22.0.1_rollup@2.75.7
@@ -339,9 +339,9 @@ importers:
 
   internal/metadata:
     specifiers:
-      '@element-plus/build': ^0.0.1
-      '@element-plus/build-constants': ^0.0.1
-      '@element-plus/build-utils': ^0.0.1
+      '@alex.dunn.adalyser/build': ^0.0.1
+      '@alex.dunn.adalyser/build-constants': ^0.0.1
+      '@alex.dunn.adalyser/build-utils': ^0.0.1
       '@types/lodash-es': ^4.17.6
       chalk: ^5.0.1
       consola: ^2.15.3
@@ -351,9 +351,9 @@ importers:
       octokit: ^2.0.3
       tsx: ^3.6.0
     devDependencies:
-      '@element-plus/build': link:../build
-      '@element-plus/build-constants': link:../build-constants
-      '@element-plus/build-utils': link:../build-utils
+      '@alex.dunn.adalyser/build': link:../build
+      '@alex.dunn.adalyser/build-constants': link:../build-constants
+      '@alex.dunn.adalyser/build-utils': link:../build-utils
       '@types/lodash-es': 4.17.6
       chalk: 5.0.1
       consola: 2.15.3
@@ -426,7 +426,7 @@ importers:
 
   packages/theme-chalk:
     specifiers:
-      '@element-plus/build': workspace:*
+      '@alex.dunn.adalyser/build': workspace:*
       '@esbuild-kit/cjs-loader': ^2.2.1
       '@types/gulp-autoprefixer': ^0.0.33
       '@types/gulp-clean-css': ^4.3.0
@@ -437,7 +437,7 @@ importers:
       gulp-rename: ^2.0.0
       gulp-sass: ^5.1.0
     devDependencies:
-      '@element-plus/build': link:../../internal/build
+      '@alex.dunn.adalyser/build': link:../../internal/build
       '@esbuild-kit/cjs-loader': 2.2.1
       '@types/gulp-autoprefixer': 0.0.33
       '@types/gulp-clean-css': 4.3.0
@@ -5210,8 +5210,8 @@ packages:
   /electron-to-chromium/1.4.147:
     resolution: {integrity: sha512-czclPqxLMPqPMkahKcske4TaS5lcznsc26ByBlEFDU8grTBVK9C5W6K9I6oEEhm4Ai4jTihGnys90xY1yjXcRg==}
 
-  /element-plus/2.2.16_vue@3.2.37:
-    resolution: {integrity: sha512-rvaTMFIujec9YDC5lyaiQv2XVUCHuhVDq2k+9vQxP78N8Wd07iEOGa9pvEVOO2uYc75l4rSl2RE/IWPH/6Mdzw==}
+  /element-plus/2.2.17_vue@3.2.37:
+    resolution: {integrity: sha512-MGwMIE/q+FFD3kgS23x8HIe5043tmD1cTRwjhIX9o6fim1avFnUkrsfYRvybbz4CkyqSb185EheZS5AUPpXh2g==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:

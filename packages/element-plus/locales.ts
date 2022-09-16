@@ -1,1 +1,1 @@
-export * from '@element-plus/locale'
+export * from '@alex.dunn.adalyser/locale'

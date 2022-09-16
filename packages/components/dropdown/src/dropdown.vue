@@ -96,16 +96,21 @@ import {
   toRef,
   unref,
 } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElScrollbar from '@element-plus/components/scrollbar'
-import ElIcon from '@element-plus/components/icon'
-import ElRovingFocusGroup from '@element-plus/components/roving-focus-group'
-import { ElOnlyChild } from '@element-plus/components/slot'
-import { addUnit } from '@element-plus/utils'
 import { ArrowDown } from '@element-plus/icons-vue'
-import { EVENT_CODE } from '@element-plus/constants'
-import { useId, useLocale, useNamespace, useSize } from '@element-plus/hooks'
+import ElButton from '@alex.dunn.adalyser/components/button'
+import ElTooltip from '@alex.dunn.adalyser/components/tooltip'
+import ElScrollbar from '@alex.dunn.adalyser/components/scrollbar'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import ElRovingFocusGroup from '@alex.dunn.adalyser/components/roving-focus-group'
+import { ElOnlyChild } from '@alex.dunn.adalyser/components/slot'
+import { addUnit } from '@alex.dunn.adalyser/utils'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
+import {
+  useId,
+  useLocale,
+  useNamespace,
+  useSize,
+} from '@alex.dunn.adalyser/hooks'
 import { ElCollection as ElDropdownCollection, dropdownProps } from './dropdown'
 import { DROPDOWN_INJECTION_KEY } from './tokens'
 

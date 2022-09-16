@@ -1,7 +1,7 @@
 import MessageBox from './src/messageBox'
 
 import type { App } from 'vue'
-import type { SFCWithInstall } from '@element-plus/utils'
+import type { SFCWithInstall } from '@alex.dunn.adalyser/utils'
 
 const _MessageBox = MessageBox as SFCWithInstall<typeof MessageBox>
 

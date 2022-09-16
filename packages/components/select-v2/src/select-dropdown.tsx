@@ -1,18 +1,18 @@
 import { computed, defineComponent, inject, ref, unref } from 'vue'
 import { get } from 'lodash-unified'
-import { isObject, isUndefined } from '@element-plus/utils'
+import { isObject, isUndefined } from '@alex.dunn.adalyser/utils'
 import {
   DynamicSizeList,
   FixedSizeList,
-} from '@element-plus/components/virtual-list'
-import { useNamespace } from '@element-plus/hooks'
-import { EVENT_CODE } from '@element-plus/constants'
+} from '@alex.dunn.adalyser/components/virtual-list'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
 import GroupItem from './group-item.vue'
 import OptionItem from './option-item.vue'
 
 import { selectV2InjectionKey } from './token'
 
-import type { ItemProps } from '@element-plus/components/virtual-list'
+import type { ItemProps } from '@alex.dunn.adalyser/components/virtual-list'
 import type { Option, OptionItemProps } from './select.types'
 
 export default defineComponent({

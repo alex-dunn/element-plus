@@ -51,12 +51,12 @@
 
 <script lang="ts" setup>
 import { computed, inject, ref } from 'vue'
-import { generateId } from '@element-plus/utils'
-import ElCollapseTransition from '@element-plus/components/collapse-transition'
-import ElIcon from '@element-plus/components/icon'
 import { ArrowRight } from '@element-plus/icons-vue'
-import { useNamespace } from '@element-plus/hooks'
-import { collapseContextKey } from '@element-plus/tokens'
+import { generateId } from '@alex.dunn.adalyser/utils'
+import ElCollapseTransition from '@alex.dunn.adalyser/components/collapse-transition'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { collapseContextKey } from '@alex.dunn.adalyser/tokens'
 import { collapseItemProps } from './collapse-item'
 
 defineOptions({

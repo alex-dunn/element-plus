@@ -29,8 +29,8 @@ import {
   ref,
   watch,
 } from 'vue'
-import { getClientXY } from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+import { getClientXY } from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import draggable from '../draggable'
 
 import type { PropType } from 'vue'

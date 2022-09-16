@@ -2,8 +2,8 @@
 import { h, nextTick, onMounted, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { EVENT_CODE } from '@element-plus/constants'
-import { ElFormItem } from '@element-plus/components/form'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
+import { ElFormItem } from '@alex.dunn.adalyser/components/form'
 import Slider from '../src/slider.vue'
 
 vi.mock('lodash-unified', async () => {

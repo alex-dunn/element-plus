@@ -6,7 +6,7 @@ import {
   getStyle,
   hasClass,
   removeClass,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 
 export const useLockScreen = () => {
   let scrollBarWidth = 0

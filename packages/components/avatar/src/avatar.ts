@@ -3,8 +3,8 @@ import {
   definePropType,
   iconPropType,
   isNumber,
-} from '@element-plus/utils'
-import { componentSizes } from '@element-plus/constants'
+} from '@alex.dunn.adalyser/utils'
+import { componentSizes } from '@alex.dunn.adalyser/constants'
 import type { ExtractPropTypes } from 'vue'
 import type { ObjectFitProperty } from 'csstype'
 import type Avatar from './avatar.vue'

@@ -42,7 +42,7 @@
 
 <script lang="ts" setup>
 import { Text, computed, inject, ref, useSlots } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
 import {
   useDeprecated,
   useDisabled,
@@ -50,8 +50,8 @@ import {
   useGlobalConfig,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import { buttonGroupContextKey } from '@element-plus/tokens'
+} from '@alex.dunn.adalyser/hooks'
+import { buttonGroupContextKey } from '@alex.dunn.adalyser/tokens'
 import { buttonEmits, buttonProps } from './button'
 import { useButtonCustomStyle } from './button-custom'
 

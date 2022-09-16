@@ -51,14 +51,14 @@
 
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
-import ElButton from '@element-plus/components/button'
-import ElIcon from '@element-plus/components/icon'
-import ElTooltip from '@element-plus/components/tooltip'
-import { useLocale, useNamespace } from '@element-plus/hooks'
-import { addUnit } from '@element-plus/utils'
+import ElButton from '@alex.dunn.adalyser/components/button'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import ElTooltip from '@alex.dunn.adalyser/components/tooltip'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
+import { addUnit } from '@alex.dunn.adalyser/utils'
 import { popconfirmProps } from './popconfirm'
 
-import type { TooltipInstance } from '@element-plus/components/tooltip'
+import type { TooltipInstance } from '@alex.dunn.adalyser/components/tooltip'
 
 defineOptions({
   name: 'ElPopconfirm',

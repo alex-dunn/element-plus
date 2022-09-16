@@ -40,10 +40,10 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { useEventListener, useTimeoutFn } from '@vueuse/core'
-import { CloseComponents, TypeComponentsMap } from '@element-plus/utils'
-import { EVENT_CODE } from '@element-plus/constants'
-import { ElIcon } from '@element-plus/components/icon'
-import { useNamespace } from '@element-plus/hooks'
+import { CloseComponents, TypeComponentsMap } from '@alex.dunn.adalyser/utils'
+import { EVENT_CODE } from '@alex.dunn.adalyser/constants'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import { notificationEmits, notificationProps } from './notification'
 
 import type { CSSProperties } from 'vue'

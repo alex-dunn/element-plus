@@ -1,3 +1,3 @@
-import '@element-plus/components/select/style'
-import '@element-plus/components/tree/style'
-import '@element-plus/theme-chalk/src/tree-select.scss'
+import '@alex.dunn.adalyser/components/select/style'
+import '@alex.dunn.adalyser/components/tree/style'
+import '@alex.dunn.adalyser/theme-chalk/src/tree-select.scss'

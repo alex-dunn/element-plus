@@ -5,8 +5,8 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { useNamespace } from '@element-plus/hooks'
-import { addClass, hasClass, removeClass } from '@element-plus/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
+import { addClass, hasClass, removeClass } from '@alex.dunn.adalyser/utils'
 
 import type { BaseTransitionProps, TransitionProps } from 'vue'
 

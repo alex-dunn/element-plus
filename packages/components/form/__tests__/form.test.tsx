@@ -10,19 +10,19 @@ import {
   it,
   vi,
 } from 'vitest'
-import { rAF } from '@element-plus/test-utils/tick'
-import installStyle from '@element-plus/test-utils/style-plugin'
+import { rAF } from '@alex.dunn.adalyser/test-utils/tick'
+import installStyle from '@alex.dunn.adalyser/test-utils/style-plugin'
 import {
   ElCheckbox as Checkbox,
   ElCheckboxGroup as CheckboxGroup,
-} from '@element-plus/components/checkbox'
-import Input from '@element-plus/components/input'
+} from '@alex.dunn.adalyser/components/checkbox'
+import Input from '@alex.dunn.adalyser/components/input'
 import Form from '../src/form.vue'
 import FormItem from '../src/form-item.vue'
 import DynamicDomainForm, { formatDomainError } from '../mocks/mock-data'
 
 import type { VueWrapper } from '@vue/test-utils'
-import type { FormRules } from '@element-plus/tokens'
+import type { FormRules } from '@alex.dunn.adalyser/tokens'
 
 type FormInstance = InstanceType<typeof Form>
 type FormItemInstance = InstanceType<typeof FormItem>

@@ -20,7 +20,8 @@ import {
   TableV2SortOrder,
 } from 'element-plus'
 
-import type { Column, SortBy } from '@element-plus/components/table-v2'
+import { SortBy } from '@alex.dunn.adalyser/components/table-v2'
+import type { Column } from '@alex.dunn.adalyser/components/table-v2'
 
 const longText =
   'Quaerat ipsam necessitatibus eum quibusdam est id voluptatem cumque mollitia.'
@@ -87,7 +88,7 @@ const data = ref(
     .sort((a, b) => (a.name > b.name ? 1 : -1))
 )
 
-const sort = ref<SortBy>({ key: 'name', order: TableV2SortOrder.ASC })
+const sort = ref < SortBy > { key: 'name', order: TableV2SortOrder.ASC }
 
 const onColumnSort = (sortBy: SortBy) => {
   const order = sortBy.order === 'asc' ? 1 : -1

@@ -60,9 +60,9 @@ import {
   isBoolean,
   isFunction,
   isString,
-} from '@element-plus/utils'
-import { formContextKey, formItemContextKey } from '@element-plus/tokens'
-import { useId, useNamespace, useSize } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/utils'
+import { formContextKey, formItemContextKey } from '@alex.dunn.adalyser/tokens'
+import { useId, useNamespace, useSize } from '@alex.dunn.adalyser/hooks'
 import { formItemProps } from './form-item'
 import FormLabelWrap from './form-label-wrap'
 
@@ -72,8 +72,8 @@ import type {
   FormItemContext,
   FormItemRule,
   FormValidateFailure,
-} from '@element-plus/tokens'
-import type { Arrayable } from '@element-plus/utils'
+} from '@alex.dunn.adalyser/tokens'
+import type { Arrayable } from '@alex.dunn.adalyser/utils'
 import type { FormItemValidateState } from './form-item'
 
 defineOptions({

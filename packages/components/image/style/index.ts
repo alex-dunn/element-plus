@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/image.scss'
-import '@element-plus/components/image-viewer/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/image.scss'
+import '@alex.dunn.adalyser/components/image-viewer/style'

@@ -114,21 +114,21 @@ import {
   watch,
 } from 'vue'
 import { debounce } from 'lodash-unified'
-import ElButton from '@element-plus/components/button'
-import ElIcon from '@element-plus/components/icon'
-import { ClickOutside } from '@element-plus/directives'
+import { ArrowDown, Close } from '@element-plus/icons-vue'
+import ElButton from '@alex.dunn.adalyser/components/button'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
+import { ClickOutside } from '@alex.dunn.adalyser/directives'
 import {
   useFormItem,
   useFormItemInputId,
   useLocale,
   useNamespace,
   useSize,
-} from '@element-plus/hooks'
-import ElTooltip from '@element-plus/components/tooltip'
-import ElInput from '@element-plus/components/input'
-import { UPDATE_MODEL_EVENT } from '@element-plus/constants'
-import { debugWarn, isValidComponentSize } from '@element-plus/utils'
-import { ArrowDown, Close } from '@element-plus/icons-vue'
+} from '@alex.dunn.adalyser/hooks'
+import ElTooltip from '@alex.dunn.adalyser/components/tooltip'
+import ElInput from '@alex.dunn.adalyser/components/input'
+import { UPDATE_MODEL_EVENT } from '@alex.dunn.adalyser/constants'
+import { debugWarn, isValidComponentSize } from '@alex.dunn.adalyser/utils'
 import AlphaSlider from './components/alpha-slider.vue'
 import HueSlider from './components/hue-slider.vue'
 import Predefine from './components/predefine.vue'
@@ -136,7 +136,7 @@ import SvPanel from './components/sv-panel.vue'
 import Color from './color'
 import { OPTIONS_KEY } from './useOption'
 import type { PropType } from 'vue'
-import type { ComponentSize } from '@element-plus/constants'
+import type { ComponentSize } from '@alex.dunn.adalyser/constants'
 import type { IUseOptions } from './useOption'
 
 export default defineComponent({

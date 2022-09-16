@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/skeleton.scss'
-import '@element-plus/components/skeleton-item/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/skeleton.scss'
+import '@alex.dunn.adalyser/components/skeleton-item/style'

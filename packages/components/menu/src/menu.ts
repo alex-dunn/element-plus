@@ -12,8 +12,8 @@ import {
   watchEffect,
 } from 'vue'
 import { useResizeObserver } from '@vueuse/core'
-import ElIcon from '@element-plus/components/icon'
 import { More } from '@element-plus/icons-vue'
+import ElIcon from '@alex.dunn.adalyser/components/icon'
 import {
   buildProps,
   definePropType,
@@ -21,8 +21,8 @@ import {
   isObject,
   isString,
   mutable,
-} from '@element-plus/utils'
-import { useNamespace } from '@element-plus/hooks'
+} from '@alex.dunn.adalyser/utils'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import Menubar from './utils/menu-bar'
 import ElMenuCollapseTransition from './menu-collapse-transition.vue'
 import ElSubMenu from './sub-menu'

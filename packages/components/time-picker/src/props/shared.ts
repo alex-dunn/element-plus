@@ -1,4 +1,4 @@
-import { buildProps, definePropType } from '@element-plus/utils'
+import { buildProps, definePropType } from '@alex.dunn.adalyser/utils'
 
 import type { ExtractPropTypes } from 'vue'
 import type { Dayjs } from 'dayjs'

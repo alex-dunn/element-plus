@@ -1,2 +1,2 @@
-import '@element-plus/components/base/style/css'
-import '@element-plus/theme-chalk/el-tab-pane.css'
+import '@alex.dunn.adalyser/components/base/style/css'
+import '@alex.dunn.adalyser/theme-chalk/el-tab-pane.css'

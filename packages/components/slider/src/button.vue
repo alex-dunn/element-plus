@@ -32,8 +32,8 @@
 
 <script lang="ts" setup>
 import { reactive, toRefs } from 'vue'
-import { ElTooltip } from '@element-plus/components/tooltip'
-import { useNamespace } from '@element-plus/hooks'
+import { ElTooltip } from '@alex.dunn.adalyser/components/tooltip'
+import { useNamespace } from '@alex.dunn.adalyser/hooks'
 import { useSliderButton } from './composables'
 import { sliderButtonEmits, sliderButtonProps } from './button'
 import type { SliderButtonInitData } from './button'

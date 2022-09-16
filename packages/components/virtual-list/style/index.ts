@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/theme-chalk/src/virtual-list.scss'
-import '@element-plus/components/scrollbar/style'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/theme-chalk/src/virtual-list.scss'
+import '@alex.dunn.adalyser/components/scrollbar/style'

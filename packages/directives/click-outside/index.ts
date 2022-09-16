@@ -1,5 +1,5 @@
 import { isClient } from '@vueuse/core'
-import { isElement } from '@element-plus/utils'
+import { isElement } from '@alex.dunn.adalyser/utils'
 
 import type {
   ComponentPublicInstance,

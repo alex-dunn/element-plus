@@ -44,10 +44,10 @@
 </template>
 <script lang="ts" setup>
 import { computed, useSlots } from 'vue'
-import { ElIcon } from '@element-plus/components/icon'
-import { ElDivider } from '@element-plus/components/divider'
+import { ElIcon } from '@alex.dunn.adalyser/components/icon'
+import { ElDivider } from '@alex.dunn.adalyser/components/divider'
 
-import { useLocale, useNamespace } from '@element-plus/hooks'
+import { useLocale, useNamespace } from '@alex.dunn.adalyser/hooks'
 import { pageHeaderEmits, pageHeaderProps } from './page-header'
 
 defineOptions({

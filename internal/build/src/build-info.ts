@@ -1,6 +1,6 @@
 import path from 'path'
-import { PKG_NAME } from '@element-plus/build-constants'
-import { epOutput } from '@element-plus/build-utils'
+import { PKG_NAME } from '@alex.dunn.adalyser/build-constants'
+import { epOutput } from '@alex.dunn.adalyser/build-utils'
 
 import type { ModuleFormat } from 'rollup'
 

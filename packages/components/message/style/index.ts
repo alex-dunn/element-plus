@@ -1,3 +1,3 @@
-import '@element-plus/components/base/style'
-import '@element-plus/components/badge/style'
-import '@element-plus/theme-chalk/src/message.scss'
+import '@alex.dunn.adalyser/components/base/style'
+import '@alex.dunn.adalyser/components/badge/style'
+import '@alex.dunn.adalyser/theme-chalk/src/message.scss'

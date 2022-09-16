@@ -6,7 +6,7 @@ import {
   getOffsetTopDistance,
   getScrollContainer,
   throwError,
-} from '@element-plus/utils'
+} from '@alex.dunn.adalyser/utils'
 
 import type { ComponentPublicInstance, ObjectDirective } from 'vue'
 
