@@ -19,7 +19,7 @@
           @keydown.space.prevent.stop="handleMonthTableClick"
           @keydown.enter.prevent.stop="handleMonthTableClick"
         >
-            <el-date-picker-cell :cell="cell" />
+          <el-month-date-picker-cell :cell="cell" />
         </td>
       </tr>
     </tbody>
@@ -33,7 +33,7 @@ import { useLocale, useNamespace } from '@element-plus/hooks'
 import { rangeArr } from '@element-plus/components/time-picker'
 import { castArray, hasClass } from '@element-plus/utils'
 import { basicMonthTableProps } from '../props/basic-month-table'
-import ElDatePickerCell from './basic-cell-render'
+import ElMonthDatePickerCell from './basic-month-cell-render'
 
 type MonthCell = {
   column: number
@@ -60,13 +60,6 @@ const ns = useNamespace('month-table')
 const { t, lang } = useLocale()
 const tbodyRef = ref<HTMLElement>()
 const currentCellRef = ref<HTMLElement>()
-const months = ref(
-  props.date
-    .locale('en')
-    .localeData()
-    .monthsShort()
-    .map((_) => _.toLowerCase())
-)
 const tableRows = ref<MonthCell[][]>([
   [] as MonthCell[],
   [] as MonthCell[],
